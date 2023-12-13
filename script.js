@@ -36,6 +36,6 @@ function game() {
     console.log(playRound(playerSelection, computerSelection));
 }
 
-for (let i = 0; i < 5; i++) {
-    game();
-}
+const rock = document.querySelector("rock");
+const paper = document.querySelector("paper");
+const scissors = document.querySelector("scissors");
