@@ -73,7 +73,7 @@ function checkWinner() {
     }
 }
 
-function resetScore() {
+function resetGame() {
     playerScore = 0;
     computerScore = 0;
     updateScore();
